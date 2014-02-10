@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPBetley.Tiny-DotNet", "JPBetley.Tiny-DotNet\JPBetley.Tiny-DotNet.csproj", "{30D6E558-701F-4867-A374-BAE0111158FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPBetley.Tiny-DotNet.Test", "JPBetley.Tiny-DotNet.Test\JPBetley.Tiny-DotNet.Test.csproj", "{1FE6492B-BB87-44BA-9BB8-208AA3255C82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30D6E558-701F-4867-A374-BAE0111158FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D6E558-701F-4867-A374-BAE0111158FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D6E558-701F-4867-A374-BAE0111158FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D6E558-701F-4867-A374-BAE0111158FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE6492B-BB87-44BA-9BB8-208AA3255C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE6492B-BB87-44BA-9BB8-208AA3255C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE6492B-BB87-44BA-9BB8-208AA3255C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE6492B-BB87-44BA-9BB8-208AA3255C82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
