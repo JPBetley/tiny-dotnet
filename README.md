@@ -1,4 +1,5 @@
 # Tiny
+[![Build Status](https://travis-ci.org/JPBetley/tiny-dotnet.png?branch=master)](https://travis-ci.org/JPBetley/tiny-dotnet)
 
 A reversible base62 ID obfuscater
 
@@ -26,3 +27,8 @@ tiny.To(5);
 tiny.From("E");
 // 5
 ```
+
+## Tested with Mono
+All testing during development is done on the Windows .NET platform. 
+Travis is used as an extra layer of testing, but uses the [Mono](http://www.mono-project.com/Main_Page) library.
+Now you can rest assured that Tiny is available on both platforms.
