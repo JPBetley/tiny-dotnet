@@ -1,33 +1,33 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace JPBetley.Tiny_DotNet.Test
 {
-    [TestClass]
+    [TestFixture]
     public class TinyTest
     {
         private Tiny tiny;
-        [TestInitialize]
+        [SetUp]
         public void Initialize()
         {
             this.tiny = new Tiny("5SX0TEjkR1mLOw8Gvq2VyJxIFhgCAYidrclDWaM3so9bfzZpuUenKtP74QNH6B");
         }
 
-        [TestMethod]
+        [Test]
         public void TestToTiny()
         {
             var converted = this.tiny.To(5);
             Assert.AreEqual("E", converted);
         }
 
-        [TestMethod]
+        [Test]
         public void TestFromTiny()
         {
             var reversed = this.tiny.From("E");
             Assert.AreEqual(5, reversed);
         }
 
-        [TestMethod]
+        [Test]
         public void TestReversingRandomInt()
         {
             for (int i = 0; i <= 100; i++)
